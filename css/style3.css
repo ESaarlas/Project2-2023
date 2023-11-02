@@ -1,54 +1,48 @@
-
 body {
-  font-family: "Helvetica Neue", sans-serif;
-  color: #fff;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-}
-
-
-.parallax {
-  background-image: url('images/go!.jpg'); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  overflow: hidden; 
-}
-
-
-.nav {
-  list-style: none;
-  padding: 0;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
-.nav li {
-  display: inline;
-  margin-right: 20px;
-  font-weight: bold;
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
-}
-
-
-.text-box {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
   padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  color: #fff;
 }
 
+h1 {
+  margin: 0;
+}
 
-.content-container {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.song {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  padding: 0 10px;
 }
