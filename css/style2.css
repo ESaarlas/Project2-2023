@@ -11,16 +11,20 @@ body {
   text-align: center;
 }
 
+.navigation {
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 ul {
   list-style: none;
-  padding: 10px;
 }
 
 ul li {
   display: inline;
   margin-right: 20px;
 }
-
 a {
   text-decoration: none;
   color: #333;
